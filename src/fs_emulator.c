@@ -8,8 +8,8 @@
 #include <fcntl.h>
 #include <dirent.h>
 #include <stdbool.h>
-#include "helper.h"
-#include "commands.h"
+#include "../lib/helper.h"
+#include "../lib/commands.h"
 
 int main(int argc, char **argv)
 {
