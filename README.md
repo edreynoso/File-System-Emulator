@@ -4,11 +4,15 @@ This program emulates a simplified file system using actual files and directorie
 
 Running the Emulator
 
-Compile with: make
+Compile with: 
+    make
 
 This will produce an executable named fs_emulator.
 
-Run the emulator by passing in a directory that contains an inodes_list file (e.g., the provided fs or empty directories): ./fs_emulator fs
+Remove file with;
+    make clean
+
+Run the emulator by passing in a directory that contains an inodes_list file (e.g., the provided fs or empty directories): ./fs_emulator empty
 
 Commands:
 
